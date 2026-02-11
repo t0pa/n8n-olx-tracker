@@ -1,7 +1,7 @@
 # n8n-olx-tracker
 Moto Scraper (n8n Workflow)
 
-Personal project -  n8n workflow that monitors **OLX.ba** for motorcycles. It logs data to Google Sheets and sends real-time alerts via Telegram.
+Personal project -  n8n workflow that monitors **OLX.ba** for Cruiser motorcycles. It logs data to Google Sheets and sends real-time alerts via Telegram.
 
 ## ✨ Features
 - **Smart Tracking**: Detects new listings and removes sold/deleted items.
