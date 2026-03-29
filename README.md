@@ -15,7 +15,7 @@ This repository contains an n8n workflow for monitoring new motorcycle listings 
 2. **Configure credentials**:
    - Replace all placeholder values (e.g., `YOUR_GOOGLE_SHEET_URL`, `YOUR_TELEGRAM_CHAT_ID`, `YOUR_CREDENTIAL_ID`, etc.) with your actual credentials and URLs in n8n.
 3. **Set up Google Sheets and Telegram**:
-   - Ensure you have a Google Sheet ready and a Telegram bot/chat for notifications.
+   - Ensure you have a Google Sheet ready and a Telegram bot/chat for notifications. (This requires setup, https://developers.google.com/workspace)
 4. **Activate the workflow** in n8n.
 
 ## Security
