@@ -15,7 +15,23 @@ This repository contains an n8n workflow for monitoring new motorcycle listings 
 2. **Configure credentials**:
    - Replace all placeholder values (e.g., `YOUR_GOOGLE_SHEET_URL`, `YOUR_TELEGRAM_CHAT_ID`, `YOUR_CREDENTIAL_ID`, etc.) with your actual credentials and URLs in n8n.
 3. **Set up Google Sheets and Telegram**:
-   - Ensure you have a Google Sheet ready and a Telegram bot/chat for notifications. (This requires setup, https://developers.google.com/workspace)
+
+   **Google Sheets API Setup:**
+   - Go to [Google Cloud Console](https://console.cloud.google.com/).
+   - Create a new project (or select an existing one).
+   - Enable the "Google Sheets API" for your project.
+   - Go to "APIs & Services" > "Credentials".
+   - Click "Create Credentials" > "Service account".
+   - Download the JSON key file.
+   - Share your target Google Sheet with the service account email (from the JSON file).
+
+   **Telegram Bot Setup:**
+   - Open Telegram and search for "BotFather".
+   - Start a chat and use /newbot to create a bot.
+   - Follow the prompts to name your bot and get the API token.
+   - Save the API token for your code.
+   - Add your bot to the desired chat/group and get the chat ID.
+
 4. **Activate the workflow** in n8n.
 
 ## Security
