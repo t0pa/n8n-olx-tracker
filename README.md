@@ -34,5 +34,7 @@ This repository contains an n8n workflow for monitoring new motorcycle listings 
 
 4. **Activate the workflow** in n8n.
 
+<img width="1063" height="371" alt="image" src="https://github.com/user-attachments/assets/f6fa17c7-3abc-4528-8362-160ed3ca44b6" />
+
 
 
