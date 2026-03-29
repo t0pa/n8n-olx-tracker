@@ -34,11 +34,5 @@ This repository contains an n8n workflow for monitoring new motorcycle listings 
 
 4. **Activate the workflow** in n8n.
 
-## Security
 
-- **No secrets or private data are included** in the sanitized workflow file.
-- Always keep your credentials and sensitive data out of public repositories.
 
-## License
-
-MIT
